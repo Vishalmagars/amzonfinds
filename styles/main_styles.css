@@ -1008,7 +1008,7 @@ section
 .product-item
 {
 	width: 20%;
-	height: 380px;
+	height: 280px;
 	cursor: pointer;
 }
 .product-item::after
@@ -1149,8 +1149,8 @@ section
 .add_to_cart_button
 {
 	width: 100%;
-	visibility: hidden;
-	opacity: 0;
+	
+	opacity: 1;
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
 	-ms-transition: all 0.3s ease;
@@ -1165,7 +1165,7 @@ section
 .product-item:hover .add_to_cart_button
 {
 	visibility: visible;
-	opacity: 1;
+	
 }
 .favorite
 {
